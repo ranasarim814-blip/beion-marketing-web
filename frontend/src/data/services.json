@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Event Videography",
+    "slug": "event-videography",
+    "theme": "event",
+    "description": "Professional cinematic coverage for weddings, concerts, corporate events, and live shows. We capture every meaningful moment with storytelling-driven production.",
+    "icon": "Video",
+    "features": [
+      "4K Cinematic Footage",
+      "Same-Day Edits",
+      "Color Grading"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Food Photography & Videography",
+    "slug": "food-media",
+    "theme": "food",
+    "description": "Mouth-watering food visuals for restaurants, brands, and menus. We create stunning imagery that drives appetite and elevates your brand identity.",
+    "icon": "UtensilsCrossed",
+    "features": [
+      "Menu Photography",
+      "Social Media Reels",
+      "Brand Campaigns",
+      "Restaurant Promos"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Corporate Video Production",
+    "slug": "corporate",
+    "theme": "corporate",
+    "description": "High-impact corporate videos that communicate your brand story, culture, and value proposition with clarity and professionalism.",
+    "icon": "Briefcase",
+    "features": [
+      "Company Profiles",
+      "Product Demos",
+      "Training Videos",
+      "Executive Interviews"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Web Development",
+    "slug": "web-development",
+    "theme": "web",
+    "description": "Modern, performant websites and web applications built with cutting-edge technologies. From landing pages to full-scale platforms.",
+    "icon": "Code2",
+    "features": [
+      "React & Next.js",
+      "E-Commerce",
+      "SEO Optimized"
+    ]
+  }
+]

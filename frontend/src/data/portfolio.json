@@ -1,0 +1,166 @@
+
+[
+  {
+    "category": "food",
+    "slug": "food",
+    "title": "Food Videography",
+    "tagline": "Visuals that make you hungry",
+    "description": "Creative food commercials, restaurant branding videos, and social media content that elevates culinary experiences through stunning cinematography.",
+    "coverGradient": "from-orange-600 via-red-500 to-yellow-500",
+    "icon": "UtensilsCrossed",
+    "images": [
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+      "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "videoTitle": "Artisan Pizza Commercial",
+        "company": "Pizza Crafthouse",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "A cinematic brand story for a premium artisan pizza restaurant."
+      },
+      {
+        "id": 2,
+        "videoTitle": "Luxury Dessert Showcase",
+        "company": "La Pâtisserie",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Slow-motion macro shots of signature desserts for a Michelin-starred pastry house."
+      },
+      {
+        "id": 3,
+        "videoTitle": "Sushi Bar Brand Film",
+        "company": "Zen Sushi Co.",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "A tranquil, atmospheric brand film showcasing Japanese culinary artistry."
+      },
+      {
+        "id": 4,
+        "videoTitle": "Coffee Brand Commercial",
+        "company": "Brew & Co.",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Morning lifestyle commercial for a premium specialty coffee brand."
+      }
+    ]
+  },
+  {
+    "category": "corporate",
+    "slug": "corporate",
+    "title": "Corporate Production",
+    "tagline": "Your brand, professionally told",
+    "description": "High-impact corporate videos, company profiles, and executive content that communicates your brand vision with authority and professionalism.",
+    "coverGradient": "from-blue-700 via-indigo-600 to-cyan-500",
+    "icon": "Briefcase",
+    "images": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "videoTitle": "Annual Company Profile",
+        "company": "TechVentures Ltd.",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "A comprehensive company story film highlighting culture, milestones and future vision."
+      },
+      {
+        "id": 2,
+        "videoTitle": "Product Launch Reveal",
+        "company": "Nexus Innovations",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "High-energy product reveal video for an enterprise SaaS platform launch."
+      },
+      {
+        "id": 3,
+        "videoTitle": "CEO Interview Series",
+        "company": "Meridian Capital",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Professional executive interview series for investor relations and media."
+      }
+    ]
+  },
+  {
+    "category": "events",
+    "slug": "events",
+    "title": "Event Videography",
+    "tagline": "Every moment, immortalized",
+    "description": "Cinematic event coverage for weddings, concerts, galas, and corporate gatherings. We capture the emotion, energy, and essence of your most important occasions.",
+    "coverGradient": "from-purple-700 via-pink-600 to-rose-500",
+    "icon": "Video",
+    "images": [
+      "https://images.unsplash.com/photo-1511578314322-379afb476865",
+      "https://images.unsplash.com/photo-1492684223066-81342ee5ff30",
+      "https://images.unsplash.com/photo-1505236858219-8359eb29e329"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "videoTitle": "Grand Wedding Highlight",
+        "company": "Private Client",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "A cinematic 5-minute highlight reel of a 300-guest luxury wedding."
+      },
+      {
+        "id": 2,
+        "videoTitle": "Music Festival Coverage",
+        "company": "SoundWave Fest",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Full 3-day concert and festival coverage with multi-camera setup."
+      },
+      {
+        "id": 3,
+        "videoTitle": "Corporate Gala Night",
+        "company": "Pinnacle Group",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Premium coverage of an annual awards gala with 500+ attendees."
+      },
+      {
+        "id": 4,
+        "videoTitle": "Fashion Show Reel",
+        "company": "Studio Luxe",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Dynamic fashion event coverage with creative direction and runway highlights."
+      }
+    ]
+  },
+  {
+    "category": "web-development",
+    "slug": "web-development",
+    "title": "Web Development",
+    "tagline": "Digital experiences that convert",
+    "description": "Modern, performant, and visually stunning websites built with the latest technologies. From portfolio sites to full-scale e-commerce and SaaS platforms.",
+    "coverGradient": "from-green-600 via-teal-500 to-cyan-400",
+    "icon": "Code2",
+    "images": [
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "videoTitle": "E-Commerce Platform Demo",
+        "company": "UrbanWear PK",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Full-featured fashion e-commerce store with custom product configurator."
+      },
+      {
+        "id": 2,
+        "videoTitle": "SaaS Dashboard Walkthrough",
+        "company": "DataPulse Analytics",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Modern SaaS analytics dashboard with real-time data visualization."
+      },
+      {
+        "id": 3,
+        "videoTitle": "Restaurant Website Launch",
+        "company": "The Grand Bistro",
+        "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "description": "Premium restaurant website with online reservations and menu management."
+      }
+    ]
+  }
+]
+
