@@ -27,7 +27,7 @@ export default function AdminProjectForm() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/projects",
+        "https://beion-marketing-web.onrender.com/api/projects",
         formData
       );
 
