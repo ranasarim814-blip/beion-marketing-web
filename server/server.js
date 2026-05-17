@@ -8,27 +8,35 @@ dotenv.config();
 
 const app = express();
 
-// middleware
-app.use(cors());
+// Middleware
 app.use(express.json());
 
-// routes
+app.use(
+  cors({
+    origin: "https://beion-marketing-web.vercel.app",
+    methods: ["GET", "POST"],
+    credentials: true,
+  })
+);
+
+// Routes
 app.use("/api/projects", projectRoutes);
 
-// health check
+// Health Check
 app.get("/", (req, res) => {
   res.send("API Running...");
 });
 
-// start server
+// PORT
 const PORT = process.env.PORT || 5000;
 
-app.use(cors({
-  origin: "https://beion-marketing-web.vercel.app/"
-}));
-
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+// Start Server
+connectDB()
+  .then(() => {
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  })
+  .catch((error) => {
+    console.log("Database connection failed:", error);
   });
-});
