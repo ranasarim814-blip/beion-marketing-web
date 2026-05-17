@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Play, Sparkles } from "lucide-react";
+import logo from "../assets/icon.png";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -152,11 +153,10 @@ export default function Hero() {
               <div className="w-72 h-80 sm:w-80 sm:h-96 rounded-3xl overflow-hidden glow relative">
                 <div className="w-full h-full bg-gradient-to-br from-gray-100 via-white to-gray-200 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 mx-auto mb-4 flex items-center justify-center">
-                      <span className="font-display font-bold text-3xl text-white">B</span>
+                    <div className="w-[190px] h-[190px] rounded-full bg-white mx-auto mb-4 flex items-center justify-center">
+                    <img src={logo} alt="logo" className="w-full h-full object-contain" />
                     </div>
-                    <p className="text-gray-600 text-sm">Your Photo Here</p>
-                    <p className="text-gray-400 text-xs mt-1">Replace with portrait</p>
+                 
                   </div>
                 </div>
               </div>

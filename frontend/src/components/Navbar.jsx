@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import navLinks from "../data/navigation.json";
+import logo from "../assets/logo_2.png"
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -76,28 +77,10 @@ export default function Navbar() {
             to="/"
             className="flex items-center gap-2 group"
           >
-            <div
-              className="
-                w-10 h-10 rounded-xl
-                bg-gradient-to-br from-brand-500 to-purple-600
-                flex items-center justify-center
-                shadow-lg shadow-purple-300/40
-                transition-all duration-300
-                group-hover:scale-110
-                group-hover:rotate-3
-              "
-            >
-              <span className="text-white font-bold text-sm font-display">
-                B
-              </span>
-            </div>
+           <img src={logo} className="w-48 h-48 object-contain" alt="logo" />
 
-            <span className="font-display font-bold text-xl text-gray-900 tracking-tight">
-              Beion
-              <span className="bg-gradient-to-r from-brand-500 to-purple-600 bg-clip-text text-transparent">
-                .
-              </span>
-            </span>
+            
+            
           </Link>
 
           {/* DESKTOP NAV */}
